@@ -1,0 +1,31 @@
+.fondopagina{
+    font-family: Cambria;
+    background-image: url('../img/fondos/fondo2.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.logo1{
+    width: 30%;
+    height: 30%;
+
+}
+
+.contenedorlogo{
+
+    width: 15%;
+}
+
+.carousel-item>img{
+
+    height: 100%;
+    width: 100%;
+    
+}
+
+.container mt-5 {
+
+
+    width: 30%;
+    
+}

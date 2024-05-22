@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDUMENTA</title>
+    <link rel="stylesheet" href="./icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body class="fondopagina">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand contenedorlogo" href="#"><center><img src="./img/logo1.jpeg" class="logo1" alt=""></center></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./home.html">Inicio <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
+              </li>
+              </li>
+              <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacto
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                      <li><a class="dropdown-item" href="#">Instagram</a></li>
+                      <li><a class="dropdown-item" href="#">Telefonos</a></li>
+                    </ul>
+                  </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<!-- Aqui termina el menu head -->
+
+<!-- Aca tengo que agregar información de referencia -->
+
+    <!-- Aqui empieza el footer -->
+<div class="container bg-white">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-dark text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="text-dark">© 2021 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-dark" href="#"><i class="bi bi-facebook"></i></a></li>
+        <li class="ms-3"><a class="text-dark" href="#"><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-dark" href="#"><i class="bi bi-twitter"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+  
+  <!-- Aqui termina el footer -->
+      <script src="./js/bootstrap.bundle.js"></script>
+  
+        <script>
+          const triggerTabList = document.querySelectorAll('#mylist a')
+                  triggerTabList.forEach(triggerEl => {
+                  const tabTrigger = new bootstrap.Tab(triggerEl)
+  
+                  triggerEl.addEventListener('click', event => {
+                      event.preventDefault()
+                      tabTrigger.show()
+                  })
+              })
+        </script>
+  
+  </body>
+  </html>

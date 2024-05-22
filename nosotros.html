@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDUMENTA</title>
+    <link rel="stylesheet" href="./icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body class="fondopagina">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand contenedorlogo" href="./home.html"><center><img src="./img/logo1.jpeg" class="logo1" alt=""></center></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav mr-auto">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
+              </li>
+              </li>
+              <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacto
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://wa.me/+5491167403085">Whatsapp</a></li>
+                      <li><a class="dropdown-item" href="https://www.instagram.com">Instagram</a></li>
+                      <li><a class="dropdown-item" href="https://www.facebook.com">Facebook</a></li>
+                    </ul>
+                  </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+              <input class="form-control" type="text" placeholder="Buscar" id="buscadorProductos" autocomplete="off" aria-label="Buscar">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<!-- Aqui termina el menu head -->
+
+<!-- Aca tengo que agregar información de referencia -->
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body" style="height: 500px;">
+          <br> SOBRE NOSOTROS
+          <br>¡Somos INDUMENTA!
+          <br>Comprá en un solo click la más amplia variedad de marcas de indumentaria en todas las categorías: mujeres, hombres, niños, lencería y accesorios, a los mejores precios.
+          <br>Esto lo hacemos posible porque somos la plataforma Online  por excelencia de Av. Avellaneda (en San Fernando). Conectamos a y enviamos a todo el país, los 7 días a la semana, con atención las 24 horas del día.
+          <br>Además, brindamos en cada compra, la mejor experiencia en ecommerce, con procesos rápidos y seguros, ofreciendo una amplia pasarela en medios de pago y servicio de envíos.
+          <br>Nuestra misión:
+          <br>Somos un E-Commerce de indumentaria enfocado en brindar una experiencia comercial única, ofreciendo máximo rendimiento en tiempos de compras y envíos, al cliente mayorista,emprendedorres y clientes finales de la Argentina, facilitando los medios para su compra.
+          <br>Nuestra visión
+          <br>Ser el E-Commerce de indumentaria, referente en tendencias de moda y garante de experiencias únicas de compra, con tiempos de entrega de primera al servicio del cliente.
+          <br>Valores
+          <br>●  Orientación al cliente. 
+          <br>●  Calidad de servicio.
+          <br>●  Innovación.
+          <br>●  Compromiso.                  
+         <p class="text-center">Cualquier duda o consulta por favor comunicate con nosotros al Whatsapp o redes sociales </p>
+         <p class="text-center"> Muchas gracias!</p>
+        </div>
+      </div>
+</div>
+
+    <!-- Aqui empieza el footer -->
+<div class="container bg-white">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-dark text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="text-dark">© 2024 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-dark" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a></li>
+        <li class="ms-3"><a class="text-dark" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-dark" href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a></li>
+        <li class="ms-3"><a class="text-dark" href="https://wa.me/+5491167403085"><i class="bi bi-whatsapp"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+  
+  <!-- Aqui termina el footer -->
+      <script src="./js/bootstrap.bundle.js"></script>
+      <script src="./js/jquery.3.7.1.min.js"></script>
+      <script>
+        $("#buscadorProductos").keypress((e) => {      
+            let dataFiltrada = $("#buscadorProductos").val()
+          // ejecutamos buscador con el boton enter
+            if(e.keyCode === 13)
+            {
+              location.href = `./home.html?buscar=${dataFiltrada}`
+              return false
+            }
+          });
+      </script>
+  
+  </body>
+  </html>

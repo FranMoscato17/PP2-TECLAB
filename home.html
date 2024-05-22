@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDUMENTA</title>
+    <link rel="stylesheet" href="./icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body class="fondopagina">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand contenedorlogo" href="./home.html"><center><img src="./img/logo1.jpeg" class="logo1" alt=""></center></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav mr-auto">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
+              </li>
+
+              </li>
+              <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacto
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://wa.me/+5491167403085">Whatsapp</a></li>
+                      <li><a class="dropdown-item" href="https://www.instagram.com">Instagram</a></li>
+                      <li><a class="dropdown-item" href="https://www.facebook.com">Facebook</a></li>
+                    </ul>
+                  </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+              <input class="form-control" type="text"  id="buscadorProductos" placeholder="Buscar" autocomplete="off" aria-label="Buscar">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      
+      <!-- inicar listado de busqueda -->
+      <div class="container mt-5">
+          <div class="row">
+            <div class="col-3">                 
+                   
+                <div class="list-group" id="mylist" role="tablist">
+                    <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#remeras" role="tab">Remeras</a>
+                    <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#pantalones" role="tab">Pantalones</a>
+                    <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#zapatillas" role="tab">Zapatillas</a>
+                    <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#resultadosBuscar" id="clickBuscar" role="tab">Resultados Busqueda</a>
+                </div>
+                  
+            </div>
+            <div class="col-9">
+                <div class="row">
+                    <div role="tabpanel">
+                                        
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                             <div class="tab-pane active" id="remeras" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="card mb-2" >
+                                            <img  data-color="celeste" src="./img/remeras/camisaceleste.png" class="articulos card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <p class="card-text text-center">Camisa basica celeste con mangas </p>
+                                            </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <div class="card mb-2" >
+                                            <img  data-color="celeste" src="./img/remeras/remeraceleste.jpg" class="articulos card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <p class="card-text text-center">Remera basica celeste  </p>
+                                            </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <div class="card mb-2" >
+                                            <img  data-color="gris" src="./img/remeras/remeragrisyverde.jpg" class="articulos card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <p class="card-text text-center">Remera basica gris  </p>
+                                            </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <div class="card mb-2" >
+                                            <img  data-color="negro" src="./img/remeras/remeraduki.png" class="articulos card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <p class="card-text text-center">Remera de Duki <br> <b>Desde el fin del mundo</b>  </p>
+                                            </div>
+                                          </div>
+                                    </div>
+
+
+                                    <div class="col-4">
+                                      <div class="card mb-2">
+                                        <div id="carruselremera1" class="carousel slide">
+                                          <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carruselremera1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carruselremera1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carruselremera1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carruselremera1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carruselremera1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            <button type="button" data-bs-target="#carruselremera1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                            <button type="button" data-bs-target="#carruselremera1" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                            <button type="button" data-bs-target="#carruselremera1" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                            <button type="button" data-bs-target="#carruselremera1" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                          </div>
+                                          <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                              <img  data-color="rojo" src="./img/remeras/mangalarga1.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img  data-color="naranja" src="./img/remeras/mangalarga2.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img  data-color="mostaza" src="./img/remeras/mangalarga3.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img  data-color="amarillo" src="./img/remeras/mangalarga4.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img  data-color="violeta" src="./img/remeras/mangalarga5.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img  data-color="blanca" src="./img/remeras/mangalarga6.jpg" class="articulos articulos d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img  data-color="vino" src="./img/remeras/mangalarga7.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img  data-color="celeste" src="./img/remeras/mangalarga8.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                          </div>
+                                          <button class="carousel-control-prev" type="button" data-bs-target="#carruselremera1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                          </button>
+                                          <button class="carousel-control-next" type="button" data-bs-target="#carruselremera1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                          </button>
+                                          <div class="card-body">
+                                            <p class="card-text text-center"> Remera de mangas largas algodon 100%</p>
+
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="col-4">
+                                      <div class="card mb-2">
+                                        <div id="carruselremera2" class="carousel slide">
+                                          <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carruselremera2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carruselremera2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carruselremera2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                          </div>
+                                          <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                              <img  data-color="verde" src="./img/remeras/remeralogoespalda1.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img  data-color="gris" src="./img/remeras/remeralogoespalda2.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img  data-color="blanco" src="./img/remeras/remeralogoespalda3.jpg" class="articulos d-block w-100" alt="...">
+                                            </div>
+                                          </div>
+                                          <button class="carousel-control-prev" type="button" data-bs-target="#carruselremera2" data-bs-slide="prev">   
+                                            <span class="visually-hidden">Previous</span>
+                                          </button>
+                                          <button class="carousel-control-next" type="button" data-bs-target="#carruselremera2" data-bs-slide="next">
+                                            <span class="visually-hidden">Next</span>
+                                          </button>
+                                          <div class="card-body">
+                                            <p class="card-text text-center"> <br> Remera con logo en la espalda <br>BROSSURB CONNECTION</p>
+
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <!-- aqui empieza el carrusel de pantalones -->
+
+                            <div class="tab-pane" id="pantalones" role="tabpanel">
+                                <div class="row"> 
+                                  <div class="col-4">
+                                    <div class="card mb-2" >
+
+                                      <div class="row">
+                                        <div id="pantalonescarrusel1" class="carousel slide" data-bs-ride="carousel">
+                                          <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                              <img data-color="mostaza" src="./img/pantalones/cargo1.jpg" class="articulos d-block" alt="Cargo">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img data-color="gris" src="./img/pantalones/cargo2.jpg" class="articulos d-block" alt="Cargo">
+                                            </div>
+                                            <div class="carousel-item">
+                                              <img data-color="beige" src="./img/pantalones/cargo3.jpg" class="articulos d-block" alt="Cargo">
+                                            </div>
+                                          </div>
+                                          <button class="carousel-control-prev" type="button" data-bs-target="#pantalonescarrusel1" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                          </button>
+                                          <button class="carousel-control-next" type="button" data-bs-target="#pantalonescarrusel1" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                          </button>
+                                        </div>
+                                      </div>
+                                        <div class="card-body">
+                                          <p class="card-text text-center mb-2"> Pantalon tipo Cargo- 3 colores  </p>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="card mb-2">
+                                      <div id="carruselpantalon2" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                          <button type="button" data-bs-target="#carruselpantalon2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                          <button type="button" data-bs-target="#carruselpantalon2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                          <button type="button" data-bs-target="#carruselpantalon2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                          <button type="button" data-bs-target="#carruselpantalon2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                          <button type="button" data-bs-target="#carruselpantalon2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                          <button type="button" data-bs-target="#carruselpantalon2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                          <button type="button" data-bs-target="#carruselpantalon2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                          <button type="button" data-bs-target="#carruselpantalon2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img data-color="negro" src="./img/pantalones/chinos1.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img data-color="azul" src="./img/pantalones/chinos2.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img data-color="azul" src="./img/pantalones/chinos3.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img data-color="beige" src="./img/pantalones/chinos4.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img data-color="vino" src="./img/pantalones/chinos5.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img data-color="gris" src="./img/pantalones/chinos6.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img data-color="beige" src="./img/pantalones/chinos7.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img data-color="mostaza" src="./img/pantalones/chinos8.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carruselpantalon2" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carruselpantalon2" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                        <div class="card-body">
+                                          <p class="card-text text-center mb-2"> Pantalones de vestir estilo 'CHINOS'</p>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                                  <div class="col-4">
+                                    <div class="card mb-2" >
+                                      <div id="carruselpantalon3" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                          <button type="button" data-bs-target="#carruselpantalon3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                          <button type="button" data-bs-target="#carruselpantalon3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                          <button type="button" data-bs-target="#carruselpantalon3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img data-color="azul" src="./img/pantalones/jogging1.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item active">
+                                            <img data-color="blanco" src="./img/pantalones/jogging2.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img  data-color="negro" src="./img/pantalones/jogging3.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img  data-color="gris" src="./img/pantalones/jogging4.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img  data-color="negro" src="./img/pantalones/jogging5.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carruselpantalon3" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carruselpantalon3" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                        <div class="card-body">
+                                          <p class="card-text text-center mb-2"> Joggings deportivos  </p>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="card mb-2" >
+                                        <img data-color="azul" src="./img/pantalones/jean1.png" class="articulos card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <p class="card-text text-center mb-2"> Jean de invierno unisex  </p>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="card mb-2" >
+                                        <img data-color="azul" src="./img/pantalones/jean2.png" class="articulos card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <p class="card-text text-center">  Jean tiro altolargo para mujer</p>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-4">
+                                    <div class="card mb-2" >
+                                        <img data-color="azul" src="./img/pantalones/jean3.png" class="articulos card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <p class="card-text text-center">   Jean unisex rotos                    </p>
+                                        </div>
+                                      </div>
+                                  </div>
+                                   
+                                </div>
+                            </div>
+                            
+
+                            <!-- aqui empieza el carrusel de zapatillas -->
+                          
+                            <div class="tab-pane" id="zapatillas" role="tabpanel">
+                                <div class="row"> 
+                                  <div class="col-4">
+                                    <div class="card mb-2" >
+                                      <div id="carruselzapas1" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                          <button type="button" data-bs-target="#carruselzapas1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                          <button type="button" data-bs-target="#carruselzapas1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                          
+                                        </div>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img data-color="beige" src="./img/zapatillas/zapas1.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img data-color="negro" src="./img/zapatillas/zapas2.jpg" class="articulos d-block w-100" alt="...">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carruselzapas1" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carruselzapas1" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                        <div class="card-body">
+                                          <p class="card-text text-center">                          </p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card mb-2" >
+                                      <img data-color="gris" src="./img/zapatillas/zapas10.jpg" class="articulos card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text text-center">                         </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card mb-2" >
+                                      <img data-color="negro" src="./img/zapatillas/zapas3.jpg" class="articulos card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text text-center">                          </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card mb-2" >
+                                      <img data-color="negro" src="./img/zapatillas/zapas4.jpg" class="articulos card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text text-center">                          </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card mb-2" >
+                                      <img data-color="azul" src="./img/zapatillas/zapas5.jpg" class="articulos card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text text-center">                          </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card mb-2" >
+                                      <img data-color="gris" src="./img/zapatillas/zapas6.jpg" class="articulos card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text text-center">                          </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card mb-2" >
+                                      <img data-color="negro" src="./img/zapatillas/zapas7.jpg" class="articulos card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text text-center">                          </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card mb-2" >
+                                      <img data-color="blanco" src="./img/zapatillas/zapas8.jpg" class="articulos card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text text-center">                         </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                  <div class="card mb-2" >
+                                      <img data-color="negro" src="./img/zapatillas/zapas9.jpg" class="articulos card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text text-center">                         </p>
+                                      </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <!-- aqui empieza el carrusel de ofertas -->
+                            
+                            <!-- aqui abrimos caja de resultados de busqueda -->
+                            <div class="tab-pane" id="resultadosBuscar" role="tabpanel">
+                              <div class="row" id="resultadosEncontrados"> 
+                                <!-- aqui se van ingresando los resultados de la busqueda  -->
+                              </div>
+                            </div>
+                            <!-- cierre de caja de resultados de busqueda -->
+
+
+
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+      </div>
+<!-- Aqui terminan las cartas -->
+
+<div class="container mt-5">
+  <div class="row">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <center><img  data-color="blanca" src="./img/remeras/cortablanca.png" class="articulos d-block w-20" alt="..."></center>
+          
+        </div>
+        <div class="carousel-item">
+          <center><img  data-color="negro" src="./img/remeras/cortanegra.png" class="articulos d-block w20-" alt="..."></center>
+        </div>
+        <div class="carousel-item">
+          <center><img  data-color="rojo" src="./img/remeras/cortaroja.png" class="articulos d-block w-20" alt="..."></center>
+        </div>
+        <div class="carousel-item">
+          <center><img data-color="negro" src="./img/modelo/modelo3.png" class="articulos d-block w-20" alt="..."></center>
+        </div>
+        <div class="carousel-item">
+          <center><img data-color="negro" src="./img/modelo/modelo2.png" class="articulos d-block w-20" alt="..."></center>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Aqui empieza el footer -->
+<div class="container bg-white">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-dark text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="text-dark">© 2024 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-dark" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a></li>
+      <li class="ms-3"><a class="text-dark" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+      <li class="ms-3"><a class="text-dark" href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a></li>
+      <li class="ms-3"><a class="text-dark" href="https://wa.me/+5491167403085"><i class="bi bi-whatsapp"></i></a></li>
+    </ul>
+  </footer>
+</div>
+
+<!-- Aqui termina el footer -->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/jquery.3.7.1.min.js"></script>
+
+      <script>
+        const triggerTabList = document.querySelectorAll('#mylist a')
+                triggerTabList.forEach(triggerEl => {
+                const tabTrigger = new bootstrap.Tab(triggerEl)
+
+                triggerEl.addEventListener('click', event => {
+                    event.preventDefault()
+                    tabTrigger.show()
+                })
+            })
+      </script>
+<script src="./js/funciones.js"></script>
+</body>
+</html>
